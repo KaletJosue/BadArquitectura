@@ -7,7 +7,8 @@ using Domain.Entities;
 
 public static class OrderService
 {
-    public static readonly List<Order> LastOrders = new List<Order>();
+    private static readonly List<Order> _lastOrders = new List<Order>();
+    public static IReadOnlyList<Order> LastOrders { get; } = _lastOrders.AsReadOnly();
 
     public static Order CreateTerribleOrder(string customer, string product, int qty, decimal price)
     {
