@@ -14,8 +14,16 @@ public static class Logger
 
     public static void Try(Action a)
     {
-        try { a(); } catch (Exception e) {
-            Console.Error.WriteLine("Parse error: " + e.Message);
+
+        try
+        {
+            a();
         }
+        catch (Exception e)
+        {
+            Console.Error.WriteLine("Parse error: " + e);
+            throw;
+        }
+
     }
 }
