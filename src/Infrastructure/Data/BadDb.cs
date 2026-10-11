@@ -8,12 +8,8 @@ namespace Infrastructure.Data;
 public static class BadDb
 {
 
-    public static string ConnectionString { get; set; } =
-        Environment.GetEnvironmentVariable("BADDB_CONNECTION_STRING")
-        ?? throw new InvalidOperationException(
-            "No se ha configurado la cadena de conexion.");
 
-
+    public static string ConnectionString { get; set; } = string.Empty;
     public static int ExecuteNonQueryUnsafe(string sql)
     {
         var conn = new SqlConnection(ConnectionString);

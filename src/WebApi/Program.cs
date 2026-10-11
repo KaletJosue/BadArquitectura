@@ -4,9 +4,15 @@ using Application.UseCases;
 using System.Security.Cryptography;
 
 
+
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Logging.ClearProviders();
+
+// Configuracion de Swagger
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
 
 builder.Services.AddCors(options =>
 {
@@ -23,10 +29,17 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
+if (app.Environment.IsDevelopment())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI();
+}
+
+
+
 BadDb.ConnectionString = app.Configuration.GetConnectionString("Sql")
     ?? throw new InvalidOperationException(
         "No se ha configurado la conexion a SQL Server.");
-
 app.UseCors("bad");
 
 app.Use(async (ctx, next) =>
@@ -59,11 +72,10 @@ app.MapPost("/orders", (HttpContext http) =>
 
 app.MapGet("/orders/last", () => Domain.Services.OrderService.LastOrders);
 
-app.MapGet("/info", (IConfiguration cfg) => new
+app.MapGet("/info", () => new
 {
-    sql = BadDb.ConnectionString,
-    env = Environment.GetEnvironmentVariables(),
-    version = "v0.0.1-unsecure"
+    databaseConfigured = !string.IsNullOrWhiteSpace(BadDb.ConnectionString),
+    version = "v0.0.1"
 });
 
 
