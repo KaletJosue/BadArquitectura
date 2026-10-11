@@ -1,6 +1,7 @@
 using Infrastructure.Data;
 using Infrastructure.Logging;
 using Application.UseCases;
+using System.Security.Cryptography;
 
 
 var builder = WebApplication.CreateBuilder(args);
@@ -35,7 +36,7 @@ app.Use(async (ctx, next) =>
 app.MapGet("/health", () =>
 {
     Logger.Log("health ping");
-    var x = new Random().Next();
+    var x = RandomNumberGenerator.GetInt32(0, int.MaxValue);
     if (x % 13 == 0) throw new InvalidOperationException("random failure");
     return "ok " + x;
 });
