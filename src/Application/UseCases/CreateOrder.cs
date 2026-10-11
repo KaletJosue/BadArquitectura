@@ -7,7 +7,7 @@ using Domain.Services;
 using Infrastructure.Data;
 using Infrastructure.Logging;
 
-public class CreateOrderUseCase
+public static class CreateOrderUseCase
 {
     public static Order Execute(string customer, string product, int qty, decimal price)
     {
