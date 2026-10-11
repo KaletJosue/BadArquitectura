@@ -6,7 +6,6 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- BAD: Web directly references everything (tight coupling) -->
-    <ProjectReference Include="..\Domain\Domain.csproj" />
     <ProjectReference Include="..\Application\Application.csproj" />
     <ProjectReference Include="..\Infrastructure\Infrastructure.csproj" />
   </ItemGroup>

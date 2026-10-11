@@ -3,3 +3,11 @@ C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\obj\Debug\ne
 C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\obj\Debug\net8.0\Infrastructure.AssemblyInfo.cs
 C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.CoreCompileInputs.cache
 C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\obj\Debug\net8.0\Infrastructure.sourcelink.json
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\bin\Debug\net8.0\Infrastructure.deps.json
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\obj\Debug\net8.0\Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\obj\Debug\net8.0\Infrastructure.dll
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\obj\Debug\net8.0\refint\Infrastructure.dll
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\obj\Debug\net8.0\Infrastructure.pdb
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Infrastructure\obj\Debug\net8.0\ref\Infrastructure.dll

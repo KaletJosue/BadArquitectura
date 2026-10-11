@@ -3,3 +3,14 @@ C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Dom
 C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
 C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
 C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\bin\Debug\net8.0\Domain.deps.json
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\bin\Debug\net8.0\Domain.dll
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\bin\Debug\net8.0\Domain.pdb
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\bin\Debug\net8.0\Infrastructure.dll
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\bin\Debug\net8.0\Infrastructure.pdb
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.csproj.AssemblyReference.cache
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.csproj.Up2Date
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.dll
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\refint\Domain.dll
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.pdb
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\ref\Domain.dll
