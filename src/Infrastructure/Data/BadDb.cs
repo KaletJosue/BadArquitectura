@@ -25,5 +25,6 @@ public static class BadDb
         var conn = new SqlConnection(ConnectionString);
         var cmd = new SqlCommand(sql, conn);
         conn.Open();
-        return cmd.ExecuteReader(); 
+        return cmd.ExecuteReader();
+    }
 }

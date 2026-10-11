@@ -1,20 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "AK2vn21Fo6k=",
-  "success": false,
+  "dgSpecHash": "ogr1nZdbt94=",
+  "success": true,
   "projectFilePath": "C:\\Users\\Programadores\\Downloads\\ARQ_lim\\ARQ_lim\\src\\WebApi\\WebApi.csproj",
   "expectedPackageFiles": [],
-  "logs": [
-    {
-      "code": "NU1108",
-      "level": "Error",
-      "message": "Ciclo detectado. \r\n  WebApi -> Application -> WebApi.",
-      "projectPath": "C:\\Users\\Programadores\\Downloads\\ARQ_lim\\ARQ_lim\\src\\WebApi\\WebApi.csproj",
-      "filePath": "C:\\Users\\Programadores\\Downloads\\ARQ_lim\\ARQ_lim\\src\\WebApi\\WebApi.csproj",
-      "libraryId": "WebApi",
-      "targetGraphs": [
-        "net8.0"
-      ]
-    }
-  ]
+  "logs": []
 }

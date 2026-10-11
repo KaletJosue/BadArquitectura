@@ -1,0 +1,5 @@
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfoInputs.cache
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.AssemblyInfo.cs
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.csproj.CoreCompileInputs.cache
+C:\Users\Programadores\Downloads\ARQ_lim\ARQ_lim\src\Domain\obj\Debug\net8.0\Domain.sourcelink.json
