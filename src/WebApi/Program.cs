@@ -23,8 +23,9 @@ builder.Services.AddCors(options =>
 
 var app = builder.Build();
 
-BadDb.ConnectionString = app.Configuration["ConnectionStrings:Sql"]
-    ?? "Server=localhost;Database=master;User Id=sa;Password=SuperSecret123!;TrustServerCertificate=True";
+BadDb.ConnectionString = app.Configuration.GetConnectionString("Sql")
+    ?? throw new InvalidOperationException(
+        "No se ha configurado la conexion a SQL Server.");
 
 app.UseCors("bad");
 
