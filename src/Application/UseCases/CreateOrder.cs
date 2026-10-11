@@ -9,7 +9,7 @@ using Infrastructure.Logging;
 
 public class CreateOrderUseCase
 {
-    public Order Execute(string customer, string product, int qty, decimal price)
+    public static Order Execute(string customer, string product, int qty, decimal price)
     {
         Logger.Log("CreateOrderUseCase starting");
         var order = OrderService.CreateTerribleOrder(customer, product, qty, price);
