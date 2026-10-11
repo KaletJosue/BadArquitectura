@@ -7,7 +7,11 @@ namespace Infrastructure.Data;
 
 public static class BadDb
 {
-    public static string ConnectionString { get; set; } = "Server=localhost;Database=master;User Id=sa;Password=SuperSecret123!;TrustServerCertificate=True";
+
+    public static string ConnectionString { get; set; } =
+        Environment.GetEnvironmentVariable("BADDB_CONNECTION_STRING")
+        ?? throw new InvalidOperationException(
+            "No se ha configurado la cadena de conexion.");
 
 
     public static int ExecuteNonQueryUnsafe(string sql)
