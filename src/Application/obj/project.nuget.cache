@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "hBti9aI3CHA=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\Programadores\\Downloads\\ARQ_lim\\ARQ_lim\\src\\Application\\Application.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1108",
+      "level": "Error",
+      "message": "Ciclo detectado. \r\n  Application -> WebApi -> Application.",
+      "projectPath": "C:\\Users\\Programadores\\Downloads\\ARQ_lim\\ARQ_lim\\src\\Application\\Application.csproj",
+      "filePath": "C:\\Users\\Programadores\\Downloads\\ARQ_lim\\ARQ_lim\\src\\Application\\Application.csproj",
+      "libraryId": "Application",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
